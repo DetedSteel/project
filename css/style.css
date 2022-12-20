@@ -305,3 +305,181 @@ p {
     flex-direction: column;
     gap: 45px;
 }
+
+.material {
+    margin: 0 120px;
+    margin-bottom: 170px;
+    position: relative;
+}
+
+.material h2 {
+    width: 348px;
+}
+
+.material_text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #9c9c9c;
+    width: 497px;
+}
+
+.material_btn {
+    margin-top: 23px;
+    padding: 14px 32px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #3C3C3C;
+}
+
+.img4 {
+    position: absolute;
+    left: 1000px;
+    top: -30px;
+}
+
+.img5 {
+    position: absolute;
+    left: 600px;
+    top: 60px;
+}
+
+.img6 {
+    position: absolute;
+    left: 1000px;
+    top: 240px;
+}
+
+.blue {
+    background-color: #2C3878;
+    width: 100%;
+    height: 200px;
+    padding: 40px 120px;
+    box-sizing: border-box;
+    margin-bottom: 120px;
+    color: white;
+}
+
+.blue h2 {
+    width: 613px;
+    margin: 0;
+}
+
+.blue_cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue_cont_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blue_cont p {
+    font-weight: 400;
+    font-size: 18px;
+    width: 432px;
+}
+
+.white_btn {
+    font-weight: 500;
+    font-size: 14px;
+    background-color: white;
+    padding: 14px 32px;
+    width: 142px;
+    box-sizing: border-box;
+    border: none;
+    color: #333333;
+}
+
+footer {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    width: 481px;
+    color: #333333;
+}
+
+.form_head {
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 24px;
+}
+
+.form_head::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #333333;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 24px;
+    border-bottom: 1px solid #141414;
+}
+
+.submit {
+    width: 25px;
+    height: 10px;
+    background-image: url(../img/halfArrow.svg);
+    border: none;
+    position: absolute;
+    left: 350px;
+    top: -10px;
+}
+
+.mail {
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.social {
+    align-self: flex-end;
+    width: 200px;
+    height: 70px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.follow {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.social_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+}
+
+.socilal_2 {
+    display: flex;
+    justify-content: space-between;
+}
