@@ -55,11 +55,28 @@ p {
     align-items: center;
 }
 
+.menu_item {
+    width: 89px;
+    text-align: end;
+    transition: font-weight 0.2s ease-in-out;
+}
+
+.menu_item:hover {
+    font-weight: 600;
+}
+
 .menu_item:last-child {
+    width: 153px;
     padding: 14px 32px;
     box-sizing: border-box;
     background-color: #2C3878;
     color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.menu_item:last-child:hover {
+    background-color: #566093;
+    font-weight: inherit;
 }
 
 .first_section {
@@ -181,6 +198,13 @@ p {
     box-sizing: border-box;
     padding: 14px 32px;
     width: 140px;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.learn_more:hover {
+    background-color: #566093;
 }
 
 .learn_more_cont {
@@ -329,6 +353,13 @@ p {
     box-sizing: border-box;
     background-color: white;
     border: 1px solid #3C3C3C;
+    transition: all 0.2s ease-in-out;
+}
+
+.material_btn:hover {
+    color: white;
+    background-color: #3C3C3C;
+    border: 1px solid white;
 }
 
 .img4 {
@@ -390,6 +421,12 @@ p {
     box-sizing: border-box;
     border: none;
     color: #333333;
+    transition: all 0.2s ease-in-out;
+}
+
+.white_btn:hover {
+    color: white;
+    background-color: #333333;
 }
 
 footer {
@@ -440,6 +477,8 @@ form {
     position: absolute;
     left: 350px;
     top: -10px;
+    cursor: pointer;
+    background-color: transparent;
 }
 
 .mail {
