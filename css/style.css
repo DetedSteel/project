@@ -484,3 +484,37 @@ form {
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 1350px){
+    header {
+        margin: 0 40px;
+    }
+
+    footer {
+        margin: 0 40px;
+    }
+
+    .learn_more_text {
+        color: #333333;
+    }
+
+    .first_section {
+        margin: 0 40px;
+    }
+
+    .material {
+        margin: 0 40px;
+    }
+    
+    .product {
+        margin: 0 40px;
+    }
+
+    .service {
+        margin: 0 40px;
+    }
+
+    .about {
+        margin: 0 40px;
+    }
+}
