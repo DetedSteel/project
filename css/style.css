@@ -487,12 +487,12 @@ form {
 
 @media (max-width: 1350px){
     header {
-        margin: 0 auto;
+        margin: 0 20px;
         margin-bottom: 170px
     }
 
     footer {
-        margin: 0 auto;
+        margin: 0 20px;
         margin-bottom: 170px
     }
 
@@ -501,27 +501,27 @@ form {
     }
 
     .first_section {
-        margin: 0 auto;
+        margin: 0 20px;
         margin-bottom: 170px
     }
 
     .material {
-        margin: 0 auto;
+        margin: 0 20px;
         margin-bottom: 170px
     }
     
     .product {
-        margin: 0 auto;
+        margin: 0 20px;
         margin-bottom: 170px
     }
 
     .service {
-        margin: 0 auto;
+        margin: 0 20px;
         margin-bottom: 170px
     }
 
     .about {
-        margin: 0 auto;
+        margin: 0 20px;
         margin-bottom: 170px
     }
 
